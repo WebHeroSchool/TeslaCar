@@ -21,7 +21,7 @@ body{
   margin-right: 221px;
   }
   .menu2{
-
+    margin-right: 29px;
   }
   .menu__item:last-child{
 	   margin-right: 0;
@@ -207,3 +207,245 @@ body{
   .main__second{
     margin: 150px 0 0 0;
   }
+ @media(max-width: 768px) {
+  .menu , .menu2{
+      display: none;
+  }
+  .header{
+
+  }
+  .logo{
+    margin: -1px 518px 0 -27px;
+  }
+  .menu__btn{
+     top: 38px;
+     width: 35px;
+     height: 22px;
+  }
+  .main__first{
+   background: url('img/logo+car-ipad.svg');
+   background-position: center;
+   width: 822px;
+   height: 437px;
+   margin: 176px 0 0 -27px;
+   padding: 1px 0 0 0;
+ }
+ .menu__btn > span::before {
+   content: '';
+   top: -9.5px;
+ }
+ .menu__btn > span::after {
+   content: '';
+   top: 9.5px;
+    height: 3px;
+ }
+ .main__first_title{
+   margin: -91px 0 0 0;
+ }
+ .main__first_subtitle{
+   padding: 0 0 0 1px;
+ }
+ .main__first_bottom-block{
+   flex-wrap: wrap;
+   margin: 455px 22% 0px 20%;
+ }
+ .main__first_speed{
+  margin: 32px 20px -15px 0;
+  height: 84px;
+}
+ .main__first_speed-text{
+   background: no-repeat center left url('img/speedipad.svg');
+   width: 66px;
+   height: 50px;
+   padding: 0px 0 25px 89px;
+    margin: -30px 0px 0 0px;
+
+ }
+ .main__first_speed-text_h4{
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   font: 600 50px/60px 'Montserrat' ,arial,helvetica,sans-serif;
+ }
+ .main__first_speed-text_h5{
+   position: absolute;
+   margin: 0 0 0 0;
+   width: 52px;
+   height: 36px;
+   font: 600 20px/24px 'Montserrat' ,arial,helvetica,sans-serif;
+   padding: 18px 0px 0 0;
+ }
+ .main__first_speed-text_p{
+   margin:-19px 0 0px 69px;
+   font: 400 12px/15px 'Montserrat' ,arial,helvetica,sans-serif;
+   width: 110px;
+   height: 21px;
+ }
+ .main__first_power-reserve{
+     background: no-repeat center left url('img/roadiconipad.svg');
+     padding: 0 0 0 62px;
+     margin: 0 35px 0 0;
+     height: 84px;
+ }
+ .main__first_power-reserve_text{
+   padding: 0 0 0 0;
+ }
+ .main__first_power-reserve_h4{
+   padding: 0 0 0 0;
+   font: 600 50px/61px 'Montserrat' ,arial,helvetica,sans-serif;
+ }
+ .main__first_power-reserve_h5{
+     position: absolute;
+     padding: 20px 0 0 10px;
+     font: 600 20px/24px  'Montserrat' ,arial,helvetica,sans-serif;
+ }
+ .main__first_power-reserve_p{
+     font: 400  12px/15px 'Montserrat' ,arial,helvetica,sans-serif;
+     margin: -5px 30px 0 0;
+ }
+ .main__first_test-drive{
+   background: no-repeat url('img/testdriveipad.svg');
+   width: 162px;
+   height: 30px;
+   margin: 45px 0px 0 38px;
+ }
+ .main__first_button{
+   color: #FFF;
+   background: #E51937;
+   width: 220px;
+   height: 55px;
+   padding: 15px 0 0 0;
+   margin: 34px 21px 0 0;
+   font:
+    16px/20px 'Montserrat' ,arial,helvetica,sans-serif;
+    font-weight: bold;
+ }
+ .arrow{
+   margin: 190px 48% 0 48%;
+ }
+ .main__second{
+   margin: 340px 0 0 0;
+ }
+}
+@media(max-width: 376px) {
+  .header{
+    margin: 0 0 110px 0;
+    padding: 5px 0px 0 2px;
+
+  }
+  .logo{
+    background:url('img/logofon.svg') ;
+    width: 148px;
+    height: 42px;
+    margin: 0 180px 0 0;
+  }
+  .menu__btn{
+       top: 18px;
+       margin-right:0px;
+       width: 24px;
+       height: 15px;
+       cursor: pointer;
+       z-index: 1;
+     }
+     .menu__btn > span,
+     .menu__btn > span::before,
+     .menu__btn > span::after {
+         height: 1.5px;
+     }
+     .menu__btn > span::before {
+       content: '';
+       top: -7px;
+     }
+     .menu__btn > span::after {
+       content: '';
+       top: 7px;
+        height: 2px;
+     }
+     .main__first{
+      background: url('img/teslafonavto.svg') no-repeat bottom ,  url('img/teslafontext.svg') no-repeat top ;
+      width: 357px;
+      height: 210px;
+      margin: -3px 0 0 0;
+      padding: 1px 0 0 20px;
+    }
+     .main__first_title{
+       margin: -80px 0px 0 0;
+       font: 600 50px/60px 'Montserrat',arial,helvetica,sans-serif;
+       padding: 6px 21px 0 0;
+     }
+     .main__first_subtitle{
+      font: 500 11px/12px 'Montserrat',arial,helvetica,sans-serif;
+      margin: -4px 22px 0px 0;
+     }
+   .main__first_bottom-block{
+     text-align: center;
+     display: flex;
+ 	  justify-content: space-between;
+ 	  margin: 230px 10% 0px 10%;
+ 	  height: 60px;
+   }
+   .main__first_speed {
+    margin: 32px 0 75px 0;
+    height: 0;
+}
+.main__first_speed-text{
+  background: no-repeat center left url('img/speedfon.svg');
+  margin: -37px 0px 0 -13px;
+}
+.main__first_speed-text_h4 {
+    display: inline-block;
+    margin: 17px 0px 0 -99px;
+    font: 600 27px/33px 'Montserrat' ,arial,helvetica,sans-serif;
+}
+.main__first_speed-text_h5 {
+    display:inline-block;
+    width: 28px;
+    height: 19px;
+    font: 600 15px/18px 'Montserrat' ,arial,helvetica,sans-serif;
+    margin: 11px 0px 0 4px;
+}
+.main__first_speed-text_p {
+    font: 400 10px/12px 'Montserrat' ,arial,helvetica,sans-serif;
+    width: 64px;
+    height: 13px;
+    margin: -27px 0 0 35px;
+}
+.main__first_power-reserve{
+    background: no-repeat center left url('img/roadfon.svg');
+    margin: -9px 40px 0 0px;
+    padding: 0 0 0 0;
+  }
+  .main__first_power-reserve_text{
+    padding: 0 0 0 19px;
+    margin: 23px 5px 0 20px;
+}
+  .main__first_power-reserve_h4 {
+    font: 600 27px/33px 'Montserrat' ,arial,helvetica,sans-serif;
+}
+.main__first_power-reserve_h5 {
+    padding: 10px 0 0 8px;
+    font: 600 15px/18px 'Montserrat' ,arial,helvetica,sans-serif;
+}
+.main__first_power-reserve_p {
+    margin: -3px -10px 0 30px;
+    font: 400 10px/12px 'Montserrat' ,arial,helvetica,sans-serif;
+}
+  .main__first_test-drive{
+    background: no-repeat url('img/testdrivefon.svg');
+    margin: 0 0 0 -20px;  
+  }
+  .main__first_button {
+    color: #FFF;
+    background: #E51937;
+    width: 160px;
+    height: 40px;
+    font: 13px/16px 'Montserrat' ,arial,helvetica,sans-serif;
+    font-weight: bold;
+    padding: 10px 0px 0 0;
+    margin: -9px 2px 0 -40px;
+}
+.arrow {
+  background: no-repeat url('img/arrow.svg');
+  margin: 110px 48% 0 42.5%;
+}
+
+}
