@@ -382,6 +382,40 @@ body{
    height: 540px;
    padding: 223px 0 0 344.5px;
  }
+ .main__third_car_item1 ,
+ .main__third_car_item2 ,
+ .main__third_car_item3{
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 16px;
+ }
+ .main__third_car_item1{
+   background: url('img/line1.svg' ) no-repeat;
+   position: absolute;
+   width: 170px;
+   height: 132px;
+   left: 888px;
+   top: 1975px;
+   padding: 0 0 0 15px;
+ }
+ .main__third_car_item2{
+   background: url('img/line2.svg' ) no-repeat;
+   position: absolute;
+   width: 175px;
+   height: 290px;
+    padding: 0px 0 0 20px;
+    left: 609px;
+    top: 2023px;
+ }
+ .main__third_car_item3{
+   position: absolute;
+   background: url('img/line3.svg' ) no-repeat;
+   width: 233px;
+   height: 52px;
+   padding: 90px 0 0 15px;
+   left: 943px;
+   top: 2390px;
+ }
  .main__third_models{
    position: relative;
   background: url('img/models3.svg' ) no-repeat top right;
@@ -676,6 +710,41 @@ body{
    padding: 603px 0px 0 0px;
     margin: 0 0px 0 -16.6px;
  }
+ .main__third_car_item1 ,
+ .main__third_car_item2 ,
+ .main__third_car_item3{
+   font-size: 16px;
+   line-height: 14px;
+ }
+ /*Защита от удара сбоку*/
+ .main__third_car_item1{
+   background: url('img/line1ipad.svg' ) no-repeat;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   left: 372px;
+   top: 2127px;
+   padding: 0 0 0 13px;
+ }
+ /*Защита от удара спереди*/
+ .main__third_car_item2{
+   background: url('img/line2ipad.svg' ) no-repeat;
+   position: absolute;
+   width: 120px;
+    height: 205px;
+    padding: 0px 0 0 13px;
+    left: 172px;
+    top: 2162px;
+ }
+ /*Минимальный риск перевернуться в аварии*/
+ .main__third_car_item3{
+   position: absolute;
+   background: url('img/line3ipad.svg' ) no-repeat;
+   width: 180px;
+   padding: 50px 0 0 25px;
+   left: 411px;
+   top: 2422px;
+ }
  .main__third_models{
    position: relative;
   background: url('img/modelsipad3.svg' ) no-repeat top right;
@@ -885,12 +954,51 @@ body{
   .main__second_bottom-block {
   display: none;
 }
+.wrapper {
+    padding: 33px 54px 0px 34px;
+}
   .main__third_car{
     background: url('img/cargroup3mobile.svg' ) no-repeat bottom right;
     width: 750px;
     height: 386px;
     padding: 0px 0px 0 0px;
     margin: -5px 0px 0 -390px;
+}
+.main__third_car_item1 ,
+.main__third_car_item2 ,
+.main__third_car_item3{
+  font-size: 8px;
+  line-height: 6px;
+}
+/*Защита от удара сбоку*/
+.main__third_car_item1{
+  background: url('img/line1mobile.svg' ) no-repeat;
+  position: absolute;
+  padding: 2px 0 0 6px;
+  left: 185px;
+  top: 1253px;
+  width: 55px;
+  height: 47px;
+}
+/*Защита от удара спереди*/
+.main__third_car_item2{
+  background: url('img/line2mobile.svg' ) no-repeat;
+  position: absolute;
+  padding: 2px 0 0 8px;
+  left: 88px;
+  top: 1269px;
+  width: 59px;
+  height: 98px;
+}
+/*Минимальный риск перевернуться в аварии*/
+.main__third_car_item3{
+  position: absolute;
+  background: url('img/line3mobile.svg' ) no-repeat;
+  padding: 33px 0 0 5px;
+  left: 204px;
+  top: 1396px;
+  width: 84px;
+  height: 44px;
 }
   .main__third_models{
     position: relative;
