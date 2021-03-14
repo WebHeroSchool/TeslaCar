@@ -230,7 +230,7 @@ body{
   .main__second{
     margin: 225px 0 0px 0;
     background: no-repeat url('img/section2.svg');
-    width: 1548px;
+    width: 1440px;
     height: 844px;
   }
   .main__second_red{
@@ -540,7 +540,7 @@ body{
   }
   .main__first{
    background: url('img/logo+car-ipad.svg');
-   width: 822px;
+   width: 768px;
    height: 437px;
    margin: 176px 0 0 0px;
    padding: 1px 0 0 0;
@@ -555,14 +555,14 @@ body{
     height: 3px;
  }
  .main__first_title{
-  margin: -91px 55px 0 0px;
+  margin: -91px 0px 0 0px;
  }
  .main__first_subtitle{
-   margin: -14px 50px 0 0;
+   margin: -14px 0px 0 0;
  }
  .main__first_bottom-block{
    flex-wrap: wrap;
-   margin: 455px 25.5% 0px 17%;
+   margin: 455px 20% 0px 18%;
  }
  .main__first_speed{
   margin: 32px 20px -15px 0;
@@ -636,7 +636,7 @@ body{
    line-height: 20px;
  }
  .arrow{
-   margin: 190px 48% 0 44.6%;
+   margin: 190px 48% 0 48%;
  }
  .main__second{
    margin: 370px 0 0 0;
@@ -835,7 +835,7 @@ body{
      }
      .main__first{
       background: url('img/teslafonavto.svg') no-repeat bottom ,  url('img/teslafontext.svg') no-repeat top ;
-      width: 357px;
+      width: 355px;
       height: 210px;
       margin: -3px 0 0 0;
       padding: 1px 0 0 20px;
@@ -852,7 +852,7 @@ body{
       margin: -4px 22px 0px 0;
      }
    .main__first_bottom-block{
- 	  margin: 230px 10% 0px 10%;
+ 	  margin: 230px 9.5% 0px 10%;
  	  height: 60px;
    }
    .main__first_speed {
@@ -929,6 +929,7 @@ body{
   margin: 200px 0 0px 0;
   padding: 10px 0 0 0;
   z-index: -1;
+  width: 375px;
 }
   .main__second_red{
     width: 375px;
