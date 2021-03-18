@@ -706,7 +706,7 @@ body{
  }
  .main__third{
    background: rgb(216,20,20);
-  background: url('img/caripad3.svg' ) no-repeat 4% 18%, url('img/modelsipad3.svg' ) no-repeat 53% 7.5%, linear-gradient(0deg, rgba(216,20,20,1) 47.6%, rgba(255,255,255,1) 47.6%, rgba(248,243,244,1) 48%);
+  background: url('img/caripad3.svg' ) no-repeat 4% 18%, url('img/modelsipad3.svg' ) no-repeat 53% 7.5%, linear-gradient(0deg, rgba(229,25,55,1) 47.6%, rgba(255,255,255,1) 47.6%, rgba(248,243,244,1) 48%);
   height: 1024px;
   width: 768px;
  }
@@ -964,7 +964,7 @@ body{
     width: 374px;
     height: 596px;
     background: rgb(216,20,20);
-    background: url('img/cargroup3mobile.svg') no-repeat 4% 18%, url('img/models3mobile.svg') no-repeat 53% 9%, linear-gradient(0deg, rgba(216,20,20,1) 50.9%, rgba(255,255,255,1) 50.9%, rgba(248,243,244,1) 51%);
+    background: url('img/cargroup3mobile.svg') no-repeat 4% 18%, url('img/models3mobile.svg') no-repeat 53% 9%, linear-gradient(0deg, rgba(229,25,55,1) 50.9%, rgba(255,255,255,1) 50.9%, rgba(248,243,244,1) 51%);
 }
 .main__third_car_item1 ,
 .main__third_car_item2 ,
