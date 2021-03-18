@@ -9,17 +9,19 @@
 }
 
 @font-face {
-    font-family: 'montserratmedium';
-    src: url('./Fonts/montserrat-medium-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Montserrat';
+  src:  url('./Fonts/montserrat-semibold-webfont.woff') format('woff'),
+        url('./Fonts/montserrat-semibold-webfont.woff2') format('woff2');
+    font-weight: 600;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'montserratsemibold';
-    src: url('./Fonts/montserrat-semibold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Montserrat';
+    src: url('./Fonts/montserrat-medium-webfont.woff') format('woff'),
+         url('./Fonts/montserrat-medium-webfont.woff2') format('woff2') ;
+    font-weight: 500;
     font-style: normal;
 
 }
